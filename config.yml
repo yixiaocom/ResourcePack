@@ -1,0 +1,16 @@
+resourcepack:
+  url: "https://example.com/resourcepack.zip"
+  hash: ""
+  force-on-join: true
+  validation-timeout-ms: 5000
+
+messages:
+  prefix: "&c[ResourcePack] &r"
+  install-prompt: "&eThe server requires a resource pack. Click to download."
+  thank-you: "&aThanks for using the server resource pack!"
+  kick-on-refuse: "&cYou must accept the server resource pack to play on this server."
+
+behavior:
+  kick-if-no-pack: true
+  resend-if-not_matching_on_world_change: true
+  resend-delay-ticks: 20
